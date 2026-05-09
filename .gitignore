@@ -1,0 +1,82 @@
+# Data files - do not commit raw or processed data
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Large R objects
+*.RData
+*.rda
+*.Rda
+
+# Dashboard files (too large for GitHub)
+dashboards/*.pbix
+dashboards/*.xlsx
+
+# Report outputs
+reports/*.pdf
+reports/*.docx
+reports/figures/*.png
+reports/*.txt
+
+# System & OS files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# R/RStudio files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+venv/
+
+# Stata
+*.doh
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node (if using npm)
+node_modules/
+package-lock.json
+
+# Jupyter notebooks cache
+.ipynb_checkpoints/
+
+# Never commit API keys or credentials
+config.txt
+credentials.json
+secrets/
